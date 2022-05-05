@@ -1,0 +1,40 @@
+#!/usr/bin/python3
+
+import os
+import sys
+
+
+print('**************Welcome User!***************')
+
+print('')
+print('1. Продолжить')
+print('2. Выход')
+print('')
+otv = int(input('Введите число --> '))
+print('******************************************')
+
+if otv == 1:
+	print('++++++++++++++Menu++++++++++++++')
+	print('')
+	print('1. Обновить ситемы')
+	print('2. Удалить старые пакеты')
+	print('3. Создать папку или файл')
+	print('4. Создать архив')
+	print('0. Выход')
+	print('')
+	sys_proc = int(input('Введите число -->> '))
+	
+	if sys_proc == 1:
+		pass
+	elif sys_proc == 2:
+		pass
+	elif sys_proc == 3:
+		pass
+	elif sys_proc == 4:
+		pass
+	else:
+		print('Bye')
+else:
+	print('Bye')
+
+	
